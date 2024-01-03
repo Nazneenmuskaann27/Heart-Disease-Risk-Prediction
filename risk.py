@@ -62,7 +62,7 @@ df = pd.read_csv('heart_chances2.csv')
 # Load the trained model
 
 with open('random_forest_model.pkl', 'rb') as file:
-    random_forest_model = print('pickle.load(file)')
+    random_forest_model = pickle.load(file)
 
 
 # User Input
